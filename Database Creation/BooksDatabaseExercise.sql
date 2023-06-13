@@ -9,8 +9,8 @@ firstName varchar(25) not null,
 middleName varchar(25),
 lastName varchar(50) not null,
 gender varchar(1),
-dateOfBirth datetime not null,
-dateOfDeath datetime
+dateOfBirth date not null,
+dateOfDeath date
 );
 
 create table Formats(
@@ -29,7 +29,7 @@ modify column genreName varchar(12) not null;
 create table Book(
 BookID int primary key,
 title varchar(100) not null,
-publicationDate datetime
+publicationDate date
 );
 
 create table AuthorBook(
