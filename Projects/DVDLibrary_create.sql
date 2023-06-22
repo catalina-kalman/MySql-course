@@ -12,6 +12,7 @@ studio varchar(40),
 userRating varchar(7)
 );
 
+SET SQL_SAFE_UPDATES = 0;
 delete from dvdlibrary;
 insert into dvdlibrary values
 ("1", "Inception", "2010-07-16", "PG-13", "Christopher Nolan", "Warner Bros.", "8.8/10"),
@@ -25,4 +26,10 @@ insert into dvdlibrary values
 ("9", "The Matrix", "1999-03-31", "R", "Lana Wachowski, Lilly Wachowski", "Warner Bros.", "8.7/10"),
 ("10", "Avengers: Endgame", "2019-04-26", "PG-13", "Anthony Russo, Joe Russo", "Marvel Studios", "8.4/10"),
 ("11", "Interstellar", "2014-11-07", "PG-13", "Christopher Nolan", "Paramount Pictures", "8.6/10"),
-("12", "movie", "2014-11-07", "PG-13", "smth", "smth", "9/10");
+("12", "movie", "2014-11-07", "PG-13", "smth", "smth", "9/10"),
+("13", "The Godfather", "1972-03-24", "R", "Francis Ford Coppola", "Paramount Pictures", "9.2/10"),
+("14", "The Godfather: Part II", "1974-12-20", "R", "Francis Ford Coppola", "Paramount Pictures", "9.0/10"),
+("15", "The Dark Knight Rises", "2012-07-20", "PG-13", "Christopher Nolan", "Warner Bros.", "8.4/10"),
+("16", "Goodfellas", "1990-09-19", "R", "Martin Scorsese", "Warner Bros.", "8.7/10"),
+("17", "The Avengers", "2012-05-04", "PG-13", "Joss Whedon", "Marvel Studios", "8.0/10");
+SET SQL_SAFE_UPDATES = 1;
