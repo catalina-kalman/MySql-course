@@ -33,3 +33,5 @@ insert into dvdlibrary values
 (16, "Goodfellas", "1990-09-19", "R", "Martin Scorsese", "Warner Bros.", "8.7/10"),
 (17, "The Avengers", "2012-05-04", "PG-13", "Joss Whedon", "Marvel Studios", "8.0/10");
 SET SQL_SAFE_UPDATES = 1;
+
+
